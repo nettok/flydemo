@@ -8,3 +8,7 @@ authors = ["Ernesto Menéndez <pyalec@gmail.com>"]
 axum = "0.8"
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+tower = { version = "0.5", features = ["util"]}
+http-body-util = "0.1"
